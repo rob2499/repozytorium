@@ -1,7 +1,13 @@
 #include<stdio.h>
 
+//funkcja zwraca kwadrat liczby n
+int kwadrat(int n)
+{
+    return n*n;
+}
+
 int main()
 {
-    print("Pierwszy program w C\n");
+    printf("Pierwszy program w C\n");
     return 0;
 }
